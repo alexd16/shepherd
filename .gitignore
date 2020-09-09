@@ -7,7 +7,7 @@
 /coverage/
 /cypress/
 /docs/
-/dist/
+# /dist/
 /node_modules/
 /test/unit/dist
 /.DS_Store

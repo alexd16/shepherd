@@ -99,18 +99,6 @@ export function getPopperOptions(attachToOptions, step) {
         options: {
           altAxis: true
         }
-      },
-      {
-        name: 'focusAfterRender',
-        enabled: true,
-        phase: 'afterWrite',
-        fn() {
-          setTimeout(() => {
-            if (step.el) {
-              step.el.focus();
-            }
-          }, 300);
-        }
       }
     ],
     strategy: 'absolute'
